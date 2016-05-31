@@ -1,6 +1,7 @@
 .p-y-4 {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+	background-color: transparent;
 }
 body {
 	background-image: url(../images/colorado-mountains2.jpg);
@@ -29,6 +30,7 @@ header {
 /* footer */
 footer {
 	background: #ccc;
+	color:white;
 }
 html { display: flex;}
 body { width: 100%;}
