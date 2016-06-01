@@ -10,8 +10,8 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
-.navbar navbar-inverse {
-	background-color: blue;
+.navbar {
+	background-color: transparent;
 }
 
 /* header */
@@ -26,13 +26,14 @@ header {
 
 .row {
 	padding-top: 2rem;
+	background-color: rgba(245, 245, 245, 0.4);
 }
 
 
 /* footer */
 footer {
 	background: #ccc;
-	color:white;
+	color: grey;
 }
 html { display: flex;}
 body { width: 100%;}
