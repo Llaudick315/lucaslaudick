@@ -4,9 +4,11 @@
 	background-color: transparent;
 }
 body {
-	background-image: url(../images/colorado-mountains2.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: url(../images/mac-background2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .navbar navbar-inverse {
 	background-color: blue;
