@@ -1,6 +1,5 @@
 .p-y-4 {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-bottom: 1rem;
 	background-color: transparent;
 }
 body {
@@ -22,13 +21,17 @@ header {
 	float:none;
 	display:inline-block;
 }
-
+.page-header {
+	color: white;
+}
 
 .row {
 	padding-top: 2rem;
 	background-color: rgba(245, 245, 245, 0.4);
 }
-
+.well {
+	background-color: rgba(245, 245, 245, 0.8);
+}
 
 /* footer */
 footer {
