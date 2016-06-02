@@ -61,7 +61,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 			</main>
 		</div>
 		<?php
-		require_once("php/partials/html-footer.php");
+		require_once(dirname(__DIR__)."/php/partials/html-footer.php");
 		?>
 	</body>
 </html>
