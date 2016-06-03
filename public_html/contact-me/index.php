@@ -2,7 +2,7 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "MY PAGE TITLE";
+$PAGE_TITLE = "Contact Me";
 /*load html-head.php*/
 require_once(dirname(__DIR__)."/php/partials/html-head.php");
 
@@ -50,7 +50,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 					<!-- main content-->
 					<div class="row">
 						<div class="col-xs-12">
-							<form class="form-horizontal well" action="email.php">
+							<form class="form-horizontal well" action="../email.php">
 								<div class="form-group">
 									<label for="name">Name</label>
 									<div class="input-group">
