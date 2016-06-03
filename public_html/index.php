@@ -68,14 +68,14 @@ require_once("php/partials/html-head.php");
 					<div class="row">
 						<div class="col-md-4">
 							<div class="well text-center">
-								<h3><a href="#">My Projects</a></h3>
-								<p>Created a baseball scouting app from scratch with a group of 4 allowing baseball scouts to find all the information they need about players from one place. This is only the beginning of my projects, I have many more planned and cant wait to get started.</p>
+								<h3><a href="#">My Resume</a></h3>
+								<p>My resume page includes my full resume which describes all the skills I have as well as my technical toolbox, work experience, educations and my leadership skills.  </p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="well text-center">
-								<h3><a href="#">My Resume</a></h3>
-								<p>My resume page includes my full resume which describes all the skills I have as well as my technical toolbox, work experience, educations and my leadership skills.  </p>
+								<h3><a href="#">My Projects</a></h3>
+								<p>Created a baseball scouting app from scratch with a group of 4 allowing baseball scouts to find all the information they need about players from one place. This is only the beginning of my projects, I have many more planned and cant wait to get started.</p>
 							</div>
 						</div>
 						<div class="col-md-4">
