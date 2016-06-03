@@ -1,4 +1,4 @@
-<<?php
+<?php
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
@@ -83,7 +83,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 								<p>Product knowledge of various equipment, Merchandise sales, Excel inventory system</p>
 								<p>Assistant to Head and Assistant pro</p>
 								<h4>Sandia Golf Resort, Albuquerque, NM        May 2012 - August 2012</h4>
-								<h5>Guest Service</h5>
+								<h5>Guest Services</h5>
 								<p>Cart Barn/Bag drop and Drop-off, Cleaning clubs, Member requests</p>
 								<h3>Leadership Experience</h3>
 								<p>Fort Lewis College Golf Team,    August 2011 - May 2015</p>
