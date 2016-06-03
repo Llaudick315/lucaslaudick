@@ -51,15 +51,15 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 					</div>
 					<!-- main content-->
 					<div class="row">
-						<div class="col-xs-6">
+						<div class="col-xs-7">
+							<div class="well text-center">
+								<img src="../images/baseball.jpg" alt="basball">
+							</div>
+						</div>
+						<div class="col-xs-5">
 							<div class="well text-center">
 								<h3>RealTimeScout</h3>
 								<p>Through the Deep Dive Coding Bootcamp we were put into groups to work on a capstone project with a couple classmates. For the group I was assigned to we had the privilege to create RealTimeScout, a baseball scouting app that allows big time scouts including MLB and college scouts to be able to find up and coming players in one place. The app is a great way to get players noticed whether it be for the major league or college baseball. The task of getting noticed by these big time scouts is getting more and more difficult and that's where the RealTimeScout comes into play, giving everyone a better chance of getting noticed or for the scouts finding those special players.</p>
-							</div>
-						</div>
-						<div class="col-xs-6">
-							<div class="well text-center">
-								<img src="baseball.jpg" alt="basball">
 							</div>
 						</div>
 					</div>
