@@ -23,7 +23,9 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">LucasLaudick.com</a>
+							<div class="page-header">
+								<h1>Lucas Laudick <small>Web Developer</small></h1>
+							</div>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->

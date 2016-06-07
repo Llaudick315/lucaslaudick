@@ -23,6 +23,7 @@ header {
 }
 .page-header {
 	color: white;
+	margin-left: 4rem;
 }
 
 .row {
@@ -37,7 +38,10 @@ header {
 footer {
 	background: #ccc;
 	color: grey;
+	padding: 4rem 0;
+	margin-top: 4rem;
 }
+
 html { display: flex;}
 body { width: 100%;}
 
