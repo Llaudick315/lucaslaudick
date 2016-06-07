@@ -31,10 +31,9 @@ require_once("php/partials/html-head.php");
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">About Me</a></li>
-								<li><a href="#">My Projects</a></li>
-								<li><a href="#">Resume</a></li>
-								<li><a href="#">Contact Me</a></li>
+								<li><a href="<?php echo $PREFIX; ?>my-projects/index.php">My Projects</a></li>
+								<li><a href="<?php echo $PREFIX; ?>resume/index.php">Resume</a></li>
+								<li><a href="<?php echo $PREFIX; ?>contact-me/index.php">Contact Me</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</nav>
@@ -59,19 +58,19 @@ require_once("php/partials/html-head.php");
 					<div class="row">
 						<div class="col-md-4">
 							<div class="well text-center">
-								<h3><a href="#">My Resume</a></h3>
+								<h3><a href="<?php echo $PREFIX; ?>resume/index.php">My Resume</a></h3>
 								<p>My resume page includes my full resume which describes all the skills I have as well as my technical toolbox, work experience, education and my leadership skills.  </p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="well text-center">
-								<h3><a href="#">My Projects</a></h3>
+								<h3><a href="<?php echo $PREFIX; ?>my-projects/index.php">My Projects</a></h3>
 								<p>Created a baseball scouting app from scratch with a group of 4 allowing baseball scouts to find all the information they need about players from one place. This is only the beginning of my projects, I have plenty more to come and cant wait to get started.</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="well text-center">
-								<h3><a href="#">Contact Me</a></h3>
+								<h3><a href="<?php echo $PREFIX; ?>contact-me/index.php">Contact Me</a></h3>
 								<p>Interested in talking about future business opportunities please feel free to contact me here. I am always looking for new work experiences and would love to discuss what you have in mind. </p>
 							</div>
 						</div>

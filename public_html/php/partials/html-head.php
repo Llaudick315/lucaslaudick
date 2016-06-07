@@ -49,5 +49,5 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="<?php echo $PREFIX; ?>js/form-validate.js"></script>
-		<title>lucaslaudick.com</title>
+		<title>lucaslaudick</title>
 	</head>
