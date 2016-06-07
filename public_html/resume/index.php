@@ -54,7 +54,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 						<div class="col-xs-12">
 							<div class="well text-center">
 								<h2>Lucas Laudick</h2>
-								<h4><a href=https://github.com/Llaudick315>GitHub</a></h4>
+								<h4><a href=https://github.com/Llaudick315 target = _blank>GitHub</a></h4>
 								<h3>Web Developer</h3>
 								<p>I am an entry level Junior Web Developer with a degree in Business Administration and a certificate of completion from the Deep Dive Coding Bootcamp at the STEMulus Center at CNM. I am known for my attention to detail and my ability to be a hard worker and a team player.</p>
 								<h3>Technical Toolbox</h3>
