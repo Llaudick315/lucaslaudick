@@ -44,13 +44,13 @@ require_once("php/partials/html-head.php");
 						<h1>Lucas Laudick <small>Web Developer</small></h1>
 					</div>
 					<div class="row">
-						<div class="col-md-5">
+						<div class="col-md-4">
 							<div class="well text-center">
 								<h3>Personal picture</h3>
-								<img src="images/llaudick.jpg" alt="" class="img-rounded">
+								<img src="images/llaudick.jpg" alt="propic" class="img-rounded">
 							</div>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-8">
 							<div class="well text-center">
 								<h3>About Myself</h3>
 								<p>My name is Lucas Laudick and I am a junior web developer with a certificate of completion from the Deep Dive Coding Bootcamp. In addition to my certificate of completion I recently graduated with a Bachelors degree in Business Administration from Fort Lewis College in Durango CO in May 2015. Right out of college I received a job in Vancouver, WA working at a credit union. At this credit union we worked with a software system called symitar to keep track of all transactions we went through on a daily basis. Our IT department had created an add on to this program that was very creative and I was amazed at what it could do and how helpful it was to us as well. Even before this experience I had always had an interest in software development, always wanting to create my own software or applications. So working with this program gave me the final kick to join a bootcamp and take on being a web developer as my career. </p>
