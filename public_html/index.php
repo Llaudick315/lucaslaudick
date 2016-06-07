@@ -47,16 +47,7 @@ require_once("php/partials/html-head.php");
 						<div class="col-md-5">
 							<div class="well text-center">
 								<h3>Personal picture</h3>
-								<img src="..." alt="..." class="img-rounded">
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
-								<p>pic</p>
+								<img src="images/llaudick.jpg" alt="" class="img-rounded">
 							</div>
 						</div>
 						<div class="col-md-7">
