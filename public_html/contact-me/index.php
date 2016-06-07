@@ -51,7 +51,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 					<div class="row">
 						<div class="col-xs-12">
 							<!--Begin Contact Form-->
-							<form id="contact-form" action="php/mailer.php" method="post">
+							<form id="contact-form" action="<?php echo $PREFIX; ?>php/mailer.php" method="post">
 								<div class="form-group">
 									<label for="name">Name <span class="text-danger">*</span></label>
 									<div class="input-group">
