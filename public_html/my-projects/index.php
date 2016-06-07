@@ -59,7 +59,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 						<div class="col-md-6">
 							<div class="well text-center">
 								<h3>RealTimeScout</h3>
-								<p>Through the Deep Dive Coding Bootcamp we were put into groups to work on a capstone project with a couple classmates. For the group I was assigned to we had the privilege to create RealTimeScout, a baseball scouting app that allows big time scouts including MLB and college scouts to be able to find up and coming players in one place. RealTimeScout is a great way to get players noticed whether it be for the major league or college baseball. The task of getting noticed by these big time scouts is getting more and more difficult and that's where the RealTimeScout comes into play, giving everyone a better chance of getting noticed or for the scouts finding those special players.</p>
+								<p>Through the Deep Dive Coding Bootcamp we were put into small groups to work on a project with a couple classmates. For the group I was assigned to we had the privilege of creating RealTimeScout, a baseball scouting app that allows all sorts of scouts including MLB and college scouts the ability to find up and coming players in one place. The task of getting noticed by these scouts is getting more and more difficult and that's where the RealTimeScout comes into play, giving everyone a better chance of getting noticed. RealTimeScout gives these players that ability to get noticed whether it be for the major league or college baseball. On the technical side for this project we had used basic HTML5 and CSS3, as well as AngularJs, Javascript, and Bootstrap. </p>
 							</div>
 						</div>
 					</div>
