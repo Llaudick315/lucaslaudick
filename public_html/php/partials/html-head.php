@@ -29,6 +29,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Custom CSS -->
 		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" />
 
 
@@ -46,6 +48,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="<?php echo $PREFIX; ?>js/form-validate.js"></script>
 		<title>lucaslaudick.com test</title>
 	</head>
