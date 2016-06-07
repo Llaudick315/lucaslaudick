@@ -4,9 +4,24 @@
  * while this is convenient, this may load too much if your composer configuration grows to many classes
  * if this is a concern, load "/vendor/swiftmailer/autoload.php" instead to load just SwiftMailer
  **/
-require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
+require_once(dirname(__DIR__) . "vendor/autoload.php");
+
+/**
+ * require mailer-config.php
+ **/
+require_once("mail-config.php");
+
+// verify user's reCAPTCHA input
+$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
+
+	// if reCAPTCHA error, output the error code to the user
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
+	}
+
 	// sanitize the inputs from the form: name, email, subject, and message
 	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
@@ -26,7 +41,7 @@ try {
 	 * notice this an array that can include or omit the the recipient's real name
 	 * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
 	 **/
-	$recipients = ["llaudick@gmail.com" => "Lucas Laudick"];
+	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
