@@ -31,7 +31,7 @@ require_once(dirname(__DIR__)."/php/partials/html-head.php");
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="<?php echo $PREFIX; ?>index.php">About Me</a></li>
+								<li><a href="<?php echo $PREFIX; ?>index.php">Home</a></li>
 								<li><a href="<?php echo $PREFIX; ?>my-projects/index.php">My Projects</a></li>
 								<li><a href="<?php echo $PREFIX; ?>resume/index.php">Resume</a></li>
 								<li><a href="<?php echo $PREFIX; ?>contact-me/index.php">Contact Me</a></li>
