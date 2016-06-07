@@ -51,7 +51,7 @@ require_once("php/partials/html-head.php");
 						<div class="col-md-8">
 							<div class="well text-center">
 								<h3>About Myself</h3>
-								<p>My name is Lucas Laudick and I am a junior web developer with a certificate of completion from the Deep Dive Coding Bootcamp. In addition to my certificate of completion I recently graduated with a Bachelors degree in Business Administration from Fort Lewis College in Durango CO in May 2015. Right out of college I received a job in Vancouver, WA working at a credit union. At this credit union we worked with a software system called symitar to keep track of all transactions we went through on a daily basis. Our IT department had created an add on to this program that was very creative and I was amazed at what it could do and how helpful it was to us as well. Even before this experience I had always had an interest in software development, always wanting to create my own software or applications. So working with this program gave me the final kick to join a bootcamp and take on being a web developer as my career. </p>
+								<p>My name is Lucas Laudick and I am a junior web developer with a certificate of completion from the Deep Dive Coding Bootcamp. In addition to my certificate of completion I recently graduated with a Bachelors degree in Business Administration from Fort Lewis College in Durango, CO in May 2015. Right out of college I received a job in Vancouver, WA working at a credit union. At this credit union we worked with a software system called symitar to keep track of all transactions we went through on a daily basis. Our IT department had created an add on to this program that was very creative and I was amazed at what it could do and how helpful it was to us as well. Even before this experience I had always had an interest in software development, always wanting to create my own software and applications. So working with this program gave me the final kick to join a bootcamp and take on being a web developer as my career. </p>
 							</div>
 						</div>
 					</div>
@@ -59,13 +59,13 @@ require_once("php/partials/html-head.php");
 						<div class="col-md-4">
 							<div class="well text-center">
 								<h3><a href="<?php echo $PREFIX; ?>resume/index.php">My Resume</a></h3>
-								<p>My resume page includes my full resume which describes all the skills I have as well as my technical toolbox, work experience, education and my leadership skills.  </p>
+								<p>My resume page will include my full resume which describes all the skills I have, my technical toolbox, work experience, education as well as my leadership skills.  </p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="well text-center">
 								<h3><a href="<?php echo $PREFIX; ?>my-projects/index.php">My Projects</a></h3>
-								<p>Created a baseball scouting app from scratch with a group of 4 allowing baseball scouts to find all the information they need about players from one place. This is only the beginning of my projects, I have plenty more to come and cant wait to get started.</p>
+								<p>My most recent project I worked on a baseball scouting app built from scratch with a group of 4 that allows baseball scouts to find all the information they need about players from one place. This is only the beginning of my projects, there are plenty more to come and cant wait to get started.</p>
 							</div>
 						</div>
 						<div class="col-md-4">
